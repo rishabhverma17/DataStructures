@@ -1,8 +1,8 @@
 public class MinHeapify {
     public void func_minHeapify(int[] arr,int len, int root){
         int minElementIdx = root;
-        int left = 2*len + 1;
-        int right = 2*len + 2;
+        int left = 2*root + 1;
+        int right = 2*root + 2;
 
         if(left < len && arr[left] < arr[minElementIdx]){
             minElementIdx = left;
