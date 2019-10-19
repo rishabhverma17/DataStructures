@@ -17,6 +17,6 @@ public class Main {
         int arr2[] = { 1, 3, 5, 4,9, 8, 15, 17,6, 13, 10 };
         int n2 = arr2.length;
         BuildMinHeap bmh = new BuildMinHeap();
-        bmh.build(arr,n2);
+        bmh.build(arr2,n2);
     }
 }
